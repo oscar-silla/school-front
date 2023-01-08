@@ -11,6 +11,7 @@ import PersonAdd from "@mui/icons-material/PersonAdd";
 import Settings from "@mui/icons-material/Settings";
 import Logout from "@mui/icons-material/Logout";
 import "../../styles/navbar.style.css";
+import "../../styles/animations.style.css";
 import logo from "../../assets/img/logo.png";
 
 export default function Navbar() {
@@ -27,28 +28,38 @@ export default function Navbar() {
       <div className="navbar">
         <div className="relative">
           <div className="faic">
-            <div className="jcsb absolute left">
-              <Typography sx={{ minWidth: 100 }}>Contact</Typography>
-              <Typography sx={{ minWidth: 100 }}>Profile</Typography>
+            <div className="w50 absolute left">
+              <div className="jcsb">
+                <Typography className="underline cp ml2">Novedades</Typography>
+                <Typography className="underline cp ml2">Eventos</Typography>
+                <Typography className="underline cp ml2">Cursos</Typography>
+                <Typography className="underline cp ml2">
+                  Información
+                </Typography>
+              </div>
             </div>
             <div className="center mt6">
-              <img alt="logo" className="logo" src={logo} />
+              <img alt="logo" className="logo cp grow" src={logo} />
             </div>
-            <div className="jcsb absolute right">
-              <Typography sx={{ minWidth: 100 }}>Contact</Typography>
-              <Typography sx={{ minWidth: 100 }}>Profile</Typography>
-              <Tooltip title="Account settings">
-                <IconButton
-                  onClick={handleClick}
-                  size="small"
-                  sx={{ ml: 2 }}
-                  aria-controls={open ? "account-menu" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={open ? "true" : undefined}
-                >
-                  <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
-                </IconButton>
-              </Tooltip>
+            <div className="w50 absolute right">
+              <div className="jcsb">
+                <Typography className="underline cp">Visitar</Typography>
+                <Typography className="underline cp">Admisiones</Typography>
+                <Typography className="underline cp">Donar</Typography>
+                <Typography className="underline cp">Dirección</Typography>
+                <Tooltip title="Account settings">
+                  <IconButton
+                    onClick={handleClick}
+                    size="small"
+                    sx={{ ml: 2 }}
+                    aria-controls={open ? "account-menu" : undefined}
+                    aria-haspopup="true"
+                    aria-expanded={open ? "true" : undefined}
+                  >
+                    <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
+                  </IconButton>
+                </Tooltip>
+              </div>
             </div>
           </div>
         </div>

@@ -54,7 +54,16 @@ code {
   margin-top: 5%;
 }
 .mt6 {
-  margin-top: 6%;
+  margin-top: 7.5rem;
+}
+.mt7 {
+  margin-top: 7%;
+}
+.mt8 {
+  margin-top: 8%;
+}
+.mt9 {
+  margin-top: 9%;
 }
 
 .mr1 {
@@ -74,6 +83,32 @@ code {
 }
 .mr6 {
   margin-right: 6%;
+}
+.ml1 {
+  margin-left: 1%;
+}
+.ml2 {
+  margin-left: 2%;
+}
+.ml3 {
+  margin-left: 3%;
+}
+.ml4 {
+  margin-left: 4%;
+}
+.ml5 {
+  margin-left: 5%;
+}
+.ml6 {
+  margin-left: 6%;
+}
+
+
+.underline {
+  text-decoration: underline;
+}
+.cp {
+  cursor: pointer;
 }
 
 
