@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #393b90;
+    color: white;
+    padding: 1.5%;
+}
+.rigth50 {
+    margin-right: 50%;
+}
+.left50 {
+    margin-left: 50%;
+}
+.center {
+    width: 150px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.logo {
+    padding: 0.2%;
+    border-radius: 50%;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+.w50 {
+    width: 40%;
+}
