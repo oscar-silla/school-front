@@ -1,12 +1,16 @@
-import React from 'react';
-import Navbar from '../components/shared/navbar';
+import React from "react";
+import { Navbar, Video } from "../components";
+import { VideoHoc } from "../hocs";
 
 const Home = () => {
-    return (
-        <>
-            <Navbar />
-        </>
-    )
-}
+  const {} = VideoHoc;
+
+  return (
+    <>
+      <Navbar />
+      <Video />
+    </>
+  );
+};
 
 export default Home;
