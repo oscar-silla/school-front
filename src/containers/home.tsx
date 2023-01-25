@@ -1,12 +1,16 @@
-import React from 'react';
-import Navbar from '../components/shared/navbar';
+import React from "react";
+import { Navbar, Video } from "../components";
+import { useVideo } from "../hooks";
 
 const Home = () => {
-    return (
-        <>
-            <Navbar />
-        </>
-    )
-}
+  const { video } = useVideo();
+
+  return (
+    <>
+      <Navbar />
+      <Video video={video} />
+    </>
+  );
+};
 
 export default Home;
