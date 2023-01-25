@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { VideoService } from "../services";
 import { Video } from "../types";
-const { getOne } = VideoService;
+const { getVideoByRef } = VideoService;
 
-export default function VideoHoc() {
-  const [video, setVideo] = useState<Video | boolean>();
+const useVideo = () => {
+  const [video, setVideo] = useState<Video | boolean>(false);
 
   useEffect(() => {
     (async () => {
@@ -13,16 +13,13 @@ export default function VideoHoc() {
   }, []);
 
   const getVideo = async (ref: string): Promise<void> => {
-    const result = await getOne(ref);
+    const result = await getVideoByRef(ref);
     setVideo(result);
   };
 
   return {
-    methods: {
-      getVideo,
-    },
-    states: {
-      video,
-    },
+    video,
   };
-}
+};
+
+export default useVideo;

@@ -1,14 +1,28 @@
 import React from "react";
+import { Video } from "../types";
+import "../styles/video.style.css";
 
-const video = () => {
+type Props = {
+  video: Video | boolean;
+};
+
+const video = ({ video }: Props) => {
+  console.log(video);
   return (
-    <iframe
-      width="560"
-      height="315"
-      src=""
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ></iframe>
+    <>
+      {typeof video === "boolean" ? (
+        <p>error</p>
+      ) : (
+        <div className="video">
+          <iframe
+            src={video.src}
+            allowFullScreen
+            title="YouTube video player"
+            allow="autoplay;mute;loop;"
+          ></iframe>
+        </div>
+      )}
+    </>
   );
 };
 

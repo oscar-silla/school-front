@@ -38,8 +38,8 @@ export default function Navbar() {
                 </Typography>
               </div>
             </div>
-            <div className="center mt6">
-              <img alt="logo" className="logo cp grow" src={logo} />
+            <div className="logo mt6">
+              <img alt="logo" className="cp grow" src={logo} />
             </div>
             <div className="w50 absolute right">
               <div className="jcsb">

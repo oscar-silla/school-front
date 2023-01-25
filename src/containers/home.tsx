@@ -1,14 +1,14 @@
 import React from "react";
 import { Navbar, Video } from "../components";
-import { VideoHoc } from "../hocs";
+import { useVideo } from "../hooks";
 
 const Home = () => {
-  const {} = VideoHoc;
+  const { video } = useVideo();
 
   return (
     <>
       <Navbar />
-      <Video />
+      <Video video={video} />
     </>
   );
 };

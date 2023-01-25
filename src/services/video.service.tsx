@@ -4,7 +4,7 @@ import { Video } from "../types";
 
 const VideoService = {
   createVideo: async (video: Video) => {},
-  getOne: async (ref: string): Promise<Video | boolean> => {
+  getVideoByRef: async (ref: string): Promise<Video | boolean> => {
     return await axios
       .get(`${BaseUrl}/video/${ref}`)
       .then((res) => res?.data)
