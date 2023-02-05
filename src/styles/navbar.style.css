@@ -1,7 +1,12 @@
 .navbar {
     background-color: #393b90;
     color: white;
-    padding: 1.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .rigth50 {
     margin-right: 50%;
