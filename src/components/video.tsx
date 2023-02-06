@@ -1,9 +1,9 @@
 import React from "react";
-import { Video } from "../types";
+import { VideoType } from "../types";
 import "../styles/video.style.css";
 
 type Props = {
-  video: Video | boolean;
+  video: VideoType | boolean;
 };
 
 const video = ({ video }: Props) => {

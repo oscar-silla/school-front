@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { VideoService } from "../services";
-import { Video } from "../types";
+import { VideoType } from "../types";
 const { getVideoByRef } = VideoService;
 
 const useVideo = () => {
-  const [video, setVideo] = useState<Video | boolean>(false);
+  const [video, setVideo] = useState<VideoType | boolean>(false);
 
   useEffect(() => {
     (async () => {
