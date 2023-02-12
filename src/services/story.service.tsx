@@ -1,9 +1,9 @@
 import axios from "axios";
 import { BaseUrl } from "../constants";
-import { StoryType } from "../types";
+import { NewType } from "../types";
 
-const storyService = {
-  getAllStories: async (): Promise<StoryType[] | []> => {
+const newsService = {
+  getAllStories: async (): Promise<NewType[] | []> => {
     return await axios
       .get(`${BaseUrl}/stories`)
       .then((res) => res?.data)
@@ -11,4 +11,4 @@ const storyService = {
   },
 };
 
-export default storyService;
+export default newsService;

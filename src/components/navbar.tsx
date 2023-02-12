@@ -45,7 +45,7 @@ export default function Navbar() {
               <div className="jcsb">
                 <Typography className="underline cp">Visitar</Typography>
                 <Typography className="underline cp">Admisiones</Typography>
-                <Typography className="underline cp">Donar</Typography>
+                <Typography className="underline cp">Instalaciones</Typography>
                 <Typography className="underline cp">Dirección</Typography>
                 <Tooltip title="Account settings">
                   <IconButton
