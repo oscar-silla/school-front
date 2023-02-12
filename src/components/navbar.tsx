@@ -25,10 +25,10 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="navbar">
-        <div className="relative">
+      <div className="relative">
+        <div className="navbar">
           <div className="faic">
-            <div className="w50 absolute left">
+            <div className="w50 absolute left ml2">
               <div className="jcsb">
                 <Typography className="underline cp ml2">Novedades</Typography>
                 <Typography className="underline cp ml2">Eventos</Typography>
@@ -41,11 +41,11 @@ export default function Navbar() {
             <div className="logo mt6">
               <img alt="logo" className="cp grow" src={logo} />
             </div>
-            <div className="w50 absolute right">
+            <div className="w50 absolute right mr2">
               <div className="jcsb">
                 <Typography className="underline cp">Visitar</Typography>
                 <Typography className="underline cp">Admisiones</Typography>
-                <Typography className="underline cp">Donar</Typography>
+                <Typography className="underline cp">Instalaciones</Typography>
                 <Typography className="underline cp">Dirección</Typography>
                 <Tooltip title="Account settings">
                   <IconButton
