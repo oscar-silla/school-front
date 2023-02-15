@@ -1,11 +1,11 @@
 import React from "react";
 import { Card } from "../../../components";
 import List from "../../../components/list";
-import { useNews } from "../../../hooks";
+import { useArticle } from "../../../hooks";
 import "../../../styles/news.style.css";
 
 const LastNews = () => {
-  const { news } = useNews();
+  const { articles } = useArticle();
 
   return (
     <div className="last-news">
@@ -16,7 +16,7 @@ const LastNews = () => {
         </div>
       </div>
       <div className="list">
-        <List elements={news}>
+        <List elements={articles}>
           <Card />
         </List>
       </div>

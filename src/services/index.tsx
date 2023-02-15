@@ -1,2 +1,2 @@
 export { default as VideoService } from "./video.service";
-export { default as StoryService } from "./story.service";
+export { default as StoryService } from "./article.service";
