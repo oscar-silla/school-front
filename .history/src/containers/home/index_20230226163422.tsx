@@ -1,5 +1,5 @@
 import { Navbar, Video } from "../../components";
-import LastNews from "./last-news";
+import LastNews from "./news";
 
 const Home = () => {
   return (
