@@ -1,21 +1,25 @@
-
-
-import React from 'react'
-import Title from '../../../components/title'
+import { Card } from "../../../components";
+import List from "../../../components/list";
+import Title from "../../../components/title";
+import useEvent from "../../../hooks/event.hook";
+import "../../../styles/event.style.css";
 
 const Events = () => {
+  const { events } = useEvent();
   return (
-    <div>
-        <div className="last-news">
-      <div className="jcc">
-        <Title title="Eventos" />
-      </div>
-      <div className="list">
-        
+    <div className="section">
+      <div className="events">
+        <div className="jcc">
+          <Title title="Eventos" />
+        </div>
+        <div className="list">
+          <List elements={events}>
+            <Card />
+          </List>
+        </div>
       </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Events
+export default Events;
