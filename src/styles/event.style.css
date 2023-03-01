@@ -1,0 +1,41 @@
+.section {
+    position: relative;
+    height: 650px;
+    background-color: #ececec;
+    z-index: 1;
+}
+ .events {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    z-index: 2;
+}
+ .events .title {
+    padding-top: 1%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #393B90;
+    z-index: 2;
+}
+ .events .list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+    z-index: 2;
+}
+
+@media(max-width: 824px) {
+     .events .list {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        z-index: 2;
+    }
+}

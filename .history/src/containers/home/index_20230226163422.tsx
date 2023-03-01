@@ -1,6 +1,5 @@
 import { Navbar, Video } from "../../components";
-import Events from "./events";
-import LastNews from "./last-news";
+import LastNews from "./news";
 
 const Home = () => {
   return (
@@ -8,7 +7,6 @@ const Home = () => {
       <Navbar />
       <Video />
       <LastNews />
-      <Events />
     </>
   );
 };
