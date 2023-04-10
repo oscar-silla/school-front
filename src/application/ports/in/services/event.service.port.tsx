@@ -1,5 +1,7 @@
 import { Event } from "../../../domain";
 
-export interface EventServicePort {
+interface EventServicePort {
   getEvents(page?: number, limit?: number): Promise<Event[] | []>;
 }
+
+export default EventServicePort;

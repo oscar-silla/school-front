@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="" />
+    <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/application/domain/last-new.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/hooks/last-new.hook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ports/in/services/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ports/in/services/last-new.service.port.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ports/in/usecases/event/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ports/in/usecases/lastnew/get-last-news.usecase.port.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ports/in/usecases/lastnew/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ports/out/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ports/out/last-new.repository.port.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/services/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/services/last-new.service.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/usecases/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/usecases/lastnew/get-last-news.usecase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/last-new.model.mapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/last-new.model.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/last-new.database.port.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/domain/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/domain/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/hooks/event.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/hooks/event.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/hooks/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/hooks/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/hooks/last-news.hook.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/ports/in/services/event.service.port.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ports/in/services/event.service.port.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/ports/in/usecases/event/get-events.usecase.port.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ports/in/usecases/event/get-events.usecase.port.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/ports/out/event.repository.port.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ports/out/event.repository.port.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/services/event.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/services/event.service.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/usecases/event/get-events.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/usecases/event/get-events.usecase.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-news.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-new.repository.adapter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/event.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/event.model.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/events.database.port.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/events.database.port.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/last-new.type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/last-new.type.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +80,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/home-slogan",
+    "git-widget-placeholder": "feature/lastnew-adaptation",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/School/school-front",
     "node.js.detected.package.eslint": "true",
@@ -51,17 +91,17 @@
     "prettierjs.PrettierConfiguration.Package": "D:\\Projects\\School\\school-front\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "D:\\Projects\\School\\school-front\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\School\school-front\src\application\ports\in\usecases\event" />
       <recent name="D:\Projects\School\school-front\src\infrastructure\repository\mongo" />
       <recent name="D:\Projects\School\school-front\src\infrastructure\repository\adapters" />
       <recent name="D:\Projects\School\school-front\src\infrastructure\repository" />
       <recent name="D:\Projects\School\school-front\src\infrastructure" />
-      <recent name="D:\Projects\School\school-front\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

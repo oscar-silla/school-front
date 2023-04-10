@@ -1,9 +1,9 @@
-import { EventRepositoryPort } from "../../../application/ports/out/event.repository.port";
-import { EventsDatabasePort } from "../ports/events.database.port";
 import EventsDatabase from "../database/events.database";
 import EventModel from "../models/event.model";
-import EventModelMapper from "../mappers/event.model.mapper";
 import { Event } from "../../../application/domain";
+import { EventRepositoryPort } from "../../../application/ports/out";
+import { EventsDatabasePort } from "../ports";
+import { EventModelMapper } from "../mappers";
 
 class EventRepositoryAdapter implements EventRepositoryPort {
   private eventsDatabase: EventsDatabasePort = new EventsDatabase();

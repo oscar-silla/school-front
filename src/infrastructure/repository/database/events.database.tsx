@@ -1,9 +1,9 @@
-import { EventsDatabasePort } from "../ports/events.database.port";
 import EventModel from "../models/event.model";
 import axios from "axios";
 import { BaseUrl } from "../../../application/constants";
 import { HttpStatus } from "../../http-status";
-import EventModelMapper from "../mappers/event.model.mapper";
+import { EventsDatabasePort } from "../ports";
+import { EventModelMapper } from "../mappers";
 
 class EventsDatabase implements EventsDatabasePort {
   private eventModelMapper = new EventModelMapper();

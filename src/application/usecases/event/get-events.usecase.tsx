@@ -1,7 +1,7 @@
 import { Event } from "../../domain";
-import { GetEventsUseCasePort } from "../../ports/in/usecases/event/get-events.usecase.port";
 import { EventService } from "../../services/event.service";
-import { EventServicePort } from "../../ports/in/services/event.service.port";
+import { GetEventsUseCasePort } from "../../ports/in/usecases/event";
+import { EventServicePort } from "../../ports/in/services";
 
 export class GetEventsUseCase implements GetEventsUseCasePort {
   private eventService: EventServicePort = new EventService();

@@ -1,5 +1,7 @@
 import { Event } from "../../../../domain";
 
-export interface GetEventsUseCasePort {
+interface GetEventsUseCasePort {
   execute(page?: number, limit?: number): Promise<Event[] | []>;
 }
+
+export default GetEventsUseCasePort;
