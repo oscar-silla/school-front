@@ -1,5 +1,7 @@
 import { Event } from "../../domain";
 
-export interface EventRepositoryPort {
+interface EventRepositoryPort {
   findAll(page?: number, limit?: number): Promise<Event[] | []>;
 }
+
+export default EventRepositoryPort;

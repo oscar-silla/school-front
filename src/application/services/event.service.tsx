@@ -1,7 +1,7 @@
 import { Event } from "../domain";
-import { EventServicePort } from "../ports/in/services/event.service.port";
-import { EventRepositoryPort } from "../ports/out/event.repository.port";
 import { EventRepositoryAdapter } from "../../infrastructure/repository/adapters";
+import { EventServicePort } from "../ports/in/services";
+import { EventRepositoryPort } from "../ports/out";
 
 export class EventService implements EventServicePort {
   private eventRepository: EventRepositoryPort = new EventRepositoryAdapter();

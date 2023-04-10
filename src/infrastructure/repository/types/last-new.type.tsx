@@ -1,5 +1,5 @@
 export default interface LastNewType {
-  id?: string;
+  id: string;
   title: string;
   description?: string;
   img?: string;
