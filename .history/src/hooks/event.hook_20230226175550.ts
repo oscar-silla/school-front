@@ -1,8 +1,8 @@
 /* import { useState } from "react";
-import { EventService } from "../services";
+import { EventRepositoryAdapter } from "../repository";
  */
-/* const {getPaginatedEvents} = EventService;
+/* const {getPaginatedEvents} = EventRepositoryAdapter;
 
 const useEvent = () => {
-    const [event, setEvents] = useState()
+    const [event.type.tsx, setEvents] = useState()
 } */
