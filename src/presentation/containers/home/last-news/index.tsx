@@ -5,8 +5,7 @@ import { useLastNews } from "../../../../application/hooks";
 import "../../../styles/last-news.style.css";
 
 const LastNews = () => {
-  const { lastNews } = useLastNews();
-
+  const { lastNews } = useLastNews(0, 3);
   return (
     <>
       <div className="section">
