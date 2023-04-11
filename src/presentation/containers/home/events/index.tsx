@@ -1,11 +1,11 @@
 import { Card } from "../../../components";
 import List from "../../../components/list";
 import Title from "../../../components/title";
-import useEvent from "../../../../application/hooks/event.hook";
 import "../../../styles/event.style.css";
+import { useEvent } from "../../../../application/hooks";
 
 const Events = () => {
-  const { events } = useEvent();
+  const { events } = useEvent(0, 3);
   return (
     <div className="section">
       <div className="events">

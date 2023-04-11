@@ -1,4 +1,5 @@
 import "../styles/video.style.css";
+
 // @ts-ignore
 import videoMp4 from "../assets/video/presentation.mp4";
 

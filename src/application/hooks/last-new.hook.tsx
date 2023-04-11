@@ -5,14 +5,14 @@ import { GetLastNewsUseCase } from "../usecases";
 
 const getLastNewsUseCase: GetLastNewsUseCasePort = new GetLastNewsUseCase();
 
-const useLastNew = () => {
+const useLastNew = (page?: number, limit?: number) => {
   const [lastNews, setLastNews] = useState<LastNew[] | []>([]);
 
   useEffect(() => {
     (async () => {
-      setLastNews(await getLastNewsUseCase.execute());
+      setLastNews(await getLastNewsUseCase.execute(page, limit));
     })();
-  }, []);
+  }, [limit, page]);
 
   return {
     lastNews,
