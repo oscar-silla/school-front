@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/hooks/event.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/hooks/event.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/hooks/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/hooks/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/hooks/last-new.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/hooks/last-new.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/hooks/video.hook.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-new.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-new.repository.adapter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/components/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/components/video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/components/video.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/containers/home/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/containers/home/events/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/containers/home/last-news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/containers/home/last-news/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/video-adaptation",
+    "git-widget-placeholder": "test/card-component",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/School/school-front",
     "node.js.detected.package.eslint": "true",
@@ -93,6 +80,7 @@
       <workItem from="1681138231152" duration="7798000" />
       <workItem from="1681233924405" duration="334000" />
       <workItem from="1681234282853" duration="2637000" />
+      <workItem from="1681322645751" duration="620000" />
     </task>
     <servers />
   </component>
