@@ -5,43 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jest.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/test/event.hook.test.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/constants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/domain/event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/event.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/domain/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/domain/last-new.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/last-new.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/hooks/event.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/event.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/hooks/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/hooks/last-new.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/last-new.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/in/services/event.service.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/event.service.port.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/in/services/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/in/services/last-new.service.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/last-new.service.port.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/in/usecases/event/get-events.usecase.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/event/get-events.usecase.port.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/in/usecases/event/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/event/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/in/usecases/lastnew/get-last-news.usecase.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/lastnew/get-last-news.usecase.port.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/in/usecases/lastnew/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/lastnew/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/out/event.repository.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/event.repository.port.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/out/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ports/out/last-new.repository.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/last-new.repository.port.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/services/event.service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/event.service.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/services/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/services/last-new.service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/last-new.service.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/usecases/event/get-events.usecase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/event/get-events.usecase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/usecases/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/usecases/lastnew/get-last-news.usecase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/lastnew/get-last-news.usecase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-new.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-new.repository.adapter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/video.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/video.repository.adapter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/last-new.model.mapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/last-new.model.mapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/containers/home/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/containers/home/events/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/containers/home/last-news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/containers/home/last-news/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/event.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/event.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/test/event.hook.test.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/event.hook.test.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +25,11 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test/card-component" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "test/card-component",
+    "git-widget-placeholder": "test/event-hook",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/School/school-front",
     "node.js.detected.package.eslint": "true",
@@ -137,6 +108,15 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="event.hook.test.spec.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/application/test/event.hook.test.spec.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -147,12 +127,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.event.hook.test.spec.ts" />
+      <item itemvalue="Jest.Event hook test" />
+      <item itemvalue="Jest.Event hook test.Should return a list of events when execute GetEventsUseCase" />
+      <item itemvalue="npm.test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.test" />
-        <item itemvalue="Jest.All Tests" />
+        <item itemvalue="Jest.event.hook.test.spec.ts" />
         <item itemvalue="Jest.Event hook test" />
         <item itemvalue="Jest.Event hook test.Should return a list of events when execute GetEventsUseCase" />
+        <item itemvalue="Jest.All Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +163,7 @@
       <workItem from="1681322645751" duration="620000" />
       <workItem from="1681400504379" duration="33000" />
       <workItem from="1681400559569" duration="2538000" />
+      <workItem from="1681405065503" duration="2993000" />
     </task>
     <servers />
   </component>
