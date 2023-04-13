@@ -1,6 +1,6 @@
 import EventModel from "../models/event.model";
 import axios from "axios";
-import { BaseUrl } from "../../../application/constants";
+import { BaseUrl } from "../../../application/src/constants";
 import { HttpStatus } from "../../http-status";
 import { EventsDatabasePort } from "../ports";
 import { EventModelMapper } from "../mappers";

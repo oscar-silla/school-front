@@ -1,5 +1,5 @@
 import { Event } from "../domain";
-import { EventRepositoryAdapter } from "../../infrastructure/repository/adapters";
+import { EventRepositoryAdapter } from "../../../infrastructure/repository/adapters";
 import { EventServicePort } from "../ports/in/services";
 import { EventRepositoryPort } from "../ports/out";
 

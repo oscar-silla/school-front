@@ -1,5 +1,5 @@
 import { LastNewModel } from "../models";
-import { LastNew } from "../../../application/domain";
+import { LastNew } from "../../../application/src/domain";
 import { LastNewType } from "../types";
 
 class LastNewModelMapper {

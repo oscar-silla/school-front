@@ -1,5 +1,5 @@
 import axios from "axios";
-import { BaseUrl } from "../../../application/constants";
+import { BaseUrl } from "../../../application/src/constants";
 import { VideoType } from "../types";
 
 const VideoRepositoryAdapter = {

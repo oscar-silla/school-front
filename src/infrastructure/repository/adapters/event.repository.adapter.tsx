@@ -1,7 +1,7 @@
 import EventsDatabase from "../database/events.database";
 import EventModel from "../models/event.model";
-import { Event } from "../../../application/domain";
-import { EventRepositoryPort } from "../../../application/ports/out";
+import { Event } from "../../../application/src/domain";
+import { EventRepositoryPort } from "../../../application/src/ports/out";
 import { EventsDatabasePort } from "../ports";
 import { EventModelMapper } from "../mappers";
 
