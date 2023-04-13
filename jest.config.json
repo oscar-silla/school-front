@@ -1,0 +1,11 @@
+{
+  "testRegex": "((\\.|/*.)(spec))\\.ts?$",
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "setupFiles": [
+    "dotenv/config"
+  ],
+  "modulePathIgnorePatterns": [
+    "<rootDir>/build/"
+  ]
+}

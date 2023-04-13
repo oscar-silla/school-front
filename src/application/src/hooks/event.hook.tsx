@@ -10,13 +10,20 @@ const useEvent = (page?: number, limit?: number) => {
 
   useEffect(() => {
     (async (): Promise<void> => {
-      setEvents(await getEventsUseCase.execute(page, limit));
+      setEvents(await getEvents(page, limit));
     })();
   }, [page, limit]);
 
   return {
     events,
   };
+};
+
+export const getEvents = async (
+  page?: number,
+  limit?: number
+): Promise<Event[] | []> => {
+  return await getEventsUseCase.execute(page, limit);
 };
 
 export default useEvent;
