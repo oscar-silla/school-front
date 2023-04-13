@@ -1,5 +1,5 @@
-import LastNewRepositoryPort from "../../../application/ports/out/last-new.repository.port";
-import { LastNew } from "../../../application/domain";
+import LastNewRepositoryPort from "../../../application/src/ports/out/last-new.repository.port";
+import { LastNew } from "../../../application/src/domain";
 import { LastNewsDatabasePort } from "../ports";
 import { LastNewsDatabase } from "../database";
 import { LastNewModel } from "../models";

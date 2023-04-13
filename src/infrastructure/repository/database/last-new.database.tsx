@@ -1,6 +1,6 @@
 import axios from "axios";
 import { LastNewsDatabasePort } from "../ports";
-import { BaseUrl } from "../../../application/constants";
+import { BaseUrl } from "../../../application/src/constants";
 import { HttpStatus } from "../../http-status";
 import { LastNewModelMapper } from "../mappers";
 import { LastNewModel } from "../models";

@@ -1,7 +1,7 @@
 import { LastNew } from "../domain";
 import { LastNewServicePort } from "../ports/in/services";
 import LastNewRepositoryPort from "../ports/out/last-new.repository.port";
-import LastNewRepositoryAdapter from "../../infrastructure/repository/adapters/last-new.repository.adapter";
+import LastNewRepositoryAdapter from "../../../infrastructure/repository/adapters/last-new.repository.adapter";
 
 class LastNewService implements LastNewServicePort {
   private lastNewRepository: LastNewRepositoryPort =

@@ -1,5 +1,5 @@
 import EventModel from "../models/event.model";
-import { Event } from "../../../application/domain";
+import { Event } from "../../../application/src/domain";
 import { EventType } from "../types";
 
 class EventModelMapper {
