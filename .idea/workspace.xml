@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/event.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/event.hook.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/test/event.hook.test.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/event.hook.test.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "test/event-hook",
+    "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/School/school-front",
     "node.js.detected.package.eslint": "true",
@@ -164,6 +163,7 @@
       <workItem from="1681400504379" duration="33000" />
       <workItem from="1681400559569" duration="2538000" />
       <workItem from="1681405065503" duration="2993000" />
+      <workItem from="1681497807769" duration="1061000" />
     </task>
     <servers />
   </component>
