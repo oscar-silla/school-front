@@ -28,7 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!school-front)/\" --env=jsdom --coverage",
+    "test": "react-scripts test --watchAll --transformIgnorePatterns \"node_modules/(?!school-front)/\" --env=jsdom ` --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
