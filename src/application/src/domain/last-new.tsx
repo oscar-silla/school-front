@@ -5,6 +5,20 @@ class LastNew {
   private img?: string;
   private content!: string;
 
+  constructor(
+    id?: string,
+    title?: string,
+    description?: string,
+    img?: string,
+    content?: string
+  ) {
+    this.id = id ?? "";
+    this.title = title ?? "";
+    this.description = description ?? "";
+    this.img = img ?? "";
+    this.content = content ?? "";
+  }
+
   getId(): string | undefined {
     return this.id;
   }

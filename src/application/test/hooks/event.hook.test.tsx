@@ -1,6 +1,6 @@
-import { Event } from "../src/domain";
+import { Event } from "../../src/domain";
 import { describe, expect, it } from "@jest/globals";
-import { getEvents, getEventsUseCase } from "../src/hooks/event.hook";
+import { getEvents, getEventsUseCase } from "../../src/hooks/event.hook";
 
 const id: string = "1";
 const title: string = "Christmas day";
