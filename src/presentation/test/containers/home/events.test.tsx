@@ -1,4 +1,4 @@
-import Events from "../src/containers/home/events";
+import Events from "../../../src/containers/home/events";
 import { cleanup, render, screen } from "@testing-library/react";
 
 afterEach(cleanup);
@@ -6,6 +6,6 @@ afterEach(cleanup);
 describe("Events tests", () => {
   it("Title should have default value", function (): void {
     render(<Events />);
-    expect(screen.getByTestId(/event-title/i).textContent).toBe("Eventos");
+    expect(screen.getByText(/Eventos/i).textContent).toBe("Eventos");
   });
 });
