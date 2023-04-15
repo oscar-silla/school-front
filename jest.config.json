@@ -1,11 +1,19 @@
 {
-  "testRegex": "((\\.|/*.)(spec))\\.ts?$",
   "preset": "ts-jest",
   "testEnvironment": "node",
   "setupFiles": [
     "dotenv/config"
   ],
+  "moduleNameMapper": {
+    "\\.(css|less|sass|scss)$": "identity-obj-proxy"
+  },
   "modulePathIgnorePatterns": [
     "<rootDir>/build/"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "ts",
+    "tsx"
   ]
 }
