@@ -7,7 +7,7 @@ type propTypes = {
 const Title = ({ title }: propTypes) => {
   return (
     <div className="title">
-      <span>{title}</span>
+      <span data-testid="event-title">{title}</span>
       <hr />
     </div>
   );
