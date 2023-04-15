@@ -1,8 +1,9 @@
+import React from "react";
 import { Card } from "../../../components";
 import List from "../../../components/list";
 import Title from "../../../components/title";
 import "../../../styles/event.style.css";
-import { useEvent } from "../../../../application/src/hooks";
+import { useEvent } from "../../../../../application/src/hooks";
 
 const Events = () => {
   const { events } = useEvent(0, 3);
