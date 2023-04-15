@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/application/test/hooks/last-new.hook.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presentation/test/containers/home/last-news.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/domain/last-new.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/last-new.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/last-new.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/last-new.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/test/event.hook.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/hooks/event.hook.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/test/events.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/test/containers/home/events.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "test/last-new",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/School/school-front",
     "node.js.detected.package.eslint": "true",
@@ -65,11 +72,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\School\school-front\src\presentation\test\containers\home" />
+      <recent name="D:\Projects\School\school-front\src\application\test\hooks" />
       <recent name="D:\Projects\School\school-front\src\presentation\test" />
       <recent name="D:\Projects\School\school-front\src\presentation\src" />
       <recent name="D:\Projects\School\school-front\src\presentation\containers\src" />
-      <recent name="D:\Projects\School\school-front\src\application\src" />
-      <recent name="D:\Projects\School\school-front\src\application\ports\in\usecases\event" />
     </key>
   </component>
   <component name="RunManager" selected="npm.test">
@@ -166,6 +173,7 @@
       <workItem from="1681400559569" duration="2538000" />
       <workItem from="1681405065503" duration="2993000" />
       <workItem from="1681497807769" duration="1061000" />
+      <workItem from="1681581878888" duration="2091000" />
     </task>
     <servers />
   </component>
