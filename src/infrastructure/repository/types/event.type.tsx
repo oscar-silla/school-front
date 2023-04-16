@@ -4,4 +4,5 @@ export default interface EventType {
   description: string;
   img: string;
   content: string;
+  color: string;
 }

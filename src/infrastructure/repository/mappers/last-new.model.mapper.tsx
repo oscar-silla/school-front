@@ -10,6 +10,7 @@ class LastNewModelMapper {
     lastNew.setDescription(lastNewModel?.getDescription() ?? "");
     lastNew.setImg(lastNewModel?.getImg() ?? "");
     lastNew.setContent(lastNewModel.getContent());
+    lastNew.setColor(lastNewModel.getColor());
     return lastNew;
   }
 
@@ -28,12 +29,14 @@ class LastNewModelMapper {
       lastNewModel.setDescription(lastNew?.getDescription() ?? "");
       lastNewModel.setImg(lastNew?.getImg() ?? "");
       lastNewModel.setContent(lastNew.getContent());
+      lastNewModel.setColor(lastNew.getColor());
     } else {
       lastNewModel.setId(lastNew.id);
       lastNewModel.setTitle(lastNew.title);
       lastNewModel.setDescription(lastNew?.description ?? "");
       lastNewModel.setImg(lastNew?.img ?? "");
       lastNewModel.setContent(lastNew.content);
+      lastNewModel.setColor(lastNew.color);
     }
     return lastNewModel;
   }

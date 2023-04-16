@@ -4,6 +4,7 @@ class LastNewModel {
   private description?: string;
   private img?: string;
   private content!: string;
+  private color!: string;
 
   getId(): string {
     return this.id;
@@ -25,6 +26,10 @@ class LastNewModel {
     return this.content;
   }
 
+  getColor(): string {
+    return this.color;
+  }
+
   setId(id: string): void {
     this.id = id;
   }
@@ -43,6 +48,10 @@ class LastNewModel {
 
   setContent(content: string): void {
     this.content = content;
+  }
+
+  setColor(color: string): void {
+    this.color = color;
   }
 }
 
