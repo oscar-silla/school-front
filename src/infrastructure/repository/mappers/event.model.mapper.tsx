@@ -10,6 +10,7 @@ class EventModelMapper {
     event.setDescription(eventModel?.getDescription() ?? "");
     event.setImg(eventModel?.getImg() ?? "");
     event.setContent(eventModel?.getContent() ?? "");
+    event.setColor(eventModel?.getColor() ?? "");
     return event;
   }
 
@@ -27,12 +28,14 @@ class EventModelMapper {
       eventModel.setDescription(event.getDescription());
       eventModel.setImg(event.getImg());
       eventModel.setContent(event?.getContent() ?? "");
+      eventModel.setColor(event.getColor());
     } else {
       eventModel.setId(event.id);
       eventModel.setTitle(event.title);
       eventModel.setDescription(event.description);
       eventModel.setImg(event.img);
       eventModel.setContent(event.content);
+      eventModel.setColor(event.color);
     }
     return eventModel;
   }

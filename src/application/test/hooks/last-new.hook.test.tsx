@@ -7,7 +7,15 @@ const title: string = "Dinning room has been reformed!";
 const description: string = "Last week, the dinning room was reformed.";
 const img: string | undefined = undefined;
 const content: string = "<h1>New dinning room</h1>";
-const lastNew: LastNew = new LastNew(id, title, description, img, content);
+const color: string = "#FF6584B0";
+const lastNew: LastNew = new LastNew(
+  id,
+  title,
+  description,
+  img,
+  content,
+  color
+);
 const lastNews: LastNew[] = [lastNew];
 describe("Last new hook tests", (): void => {
   it("should return empty list when getLastNews", async (): Promise<void> => {

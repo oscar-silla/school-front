@@ -4,6 +4,7 @@ class EventModel {
   private description!: string;
   private img!: string;
   private content?: string;
+  private color!: string;
 
   getId(): string | undefined {
     return this.id;
@@ -25,6 +26,10 @@ class EventModel {
     return this.content;
   }
 
+  getColor(): string | undefined {
+    return this.color;
+  }
+
   setId(_id: string): void {
     this.id = _id;
   }
@@ -43,6 +48,10 @@ class EventModel {
 
   setContent(content: string): void {
     this.content = content;
+  }
+
+  setColor(color: string): void {
+    this.color = color;
   }
 }
 
