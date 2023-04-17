@@ -5,20 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/application/src/domain/slogan.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/hooks/slogan.hook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/slogan.service.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/slogan/get-slogan.usecase.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/slogan/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/out/slogan.repository.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/services/slogan.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/usecases/lastnew/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/usecases/slogan/get-slogan.usecase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/usecases/slogan/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/slogan.repository.adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/slogan.database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/slogan.model.mapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/slogan.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/slogan.database.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/slogan.type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/src/hooks/event.hook_20230226175550.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/hooks/event.hook_20230226175550.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/src/services/index_20230226173347.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/services/index_20230226173347.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/src/services/index_20230226173411.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/services/index_20230226173411.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/domain/event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/event.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/domain/last-new.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/last-new.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/domain/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/last-new.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/last-new.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/services/event.service.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/event.service.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/services/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/services/last-new.service.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/last-new.service.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/out/event.repository.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/event.repository.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/out/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/out/last-new.repository.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/last-new.repository.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/services/event.service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/event.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/services/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/services/last-new.service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/last-new.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/usecases/event/get-events.usecase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/event/get-events.usecase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/usecases/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/usecases/lastnew/get-last-news.usecase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/lastnew/get-last-news.usecase.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/test/hooks/event.hook.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/hooks/event.hook.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/test/hooks/last-new.hook.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/hooks/last-new.hook.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/last-new.model.mapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/last-new.model.mapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/event.model.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/event.model.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/last-new.model.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/last-new.model.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/event.type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/event.type.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/last-new.type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/last-new.type.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/styles/card.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/styles/card.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/test/containers/home/events.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/test/containers/home/events.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-new.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/last-new.repository.adapter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/video.repository.adapter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/video.repository.adapter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/last-new.model.mapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/last-new.model.mapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/event.model.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/event.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/last-new.model.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/last-new.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/events.database.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/events.database.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/last-new.database.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/last-new.database.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/event.type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/event.type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/last-new.type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/last-new.type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/video.type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/video.type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +119,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\School\school-front\src\application\src\usecases\lastnew" />
       <recent name="D:\Projects\School\school-front\src\presentation\test\containers\home" />
       <recent name="D:\Projects\School\school-front\src\application\test\hooks" />
       <recent name="D:\Projects\School\school-front\src\presentation\test" />
       <recent name="D:\Projects\School\school-front\src\presentation\src" />
-      <recent name="D:\Projects\School\school-front\src\presentation\containers\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.test">
@@ -181,6 +222,7 @@
       <workItem from="1681497807769" duration="1061000" />
       <workItem from="1681581878888" duration="2091000" />
       <workItem from="1681629795272" duration="3633000" />
+      <workItem from="1681750163603" duration="5561000" />
     </task>
     <servers />
   </component>
