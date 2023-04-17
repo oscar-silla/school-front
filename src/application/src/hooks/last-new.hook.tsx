@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { GetLastNewsUseCasePort } from "../ports/in/usecases/lastnew";
 import { LastNew } from "../domain";
-import { GetLastNewsUseCase } from "../usecases";
+import { GetLastNewsUseCase } from "../usecases/lastnew";
 
 export const getLastNewsUseCase: GetLastNewsUseCasePort =
   new GetLastNewsUseCase();

@@ -13,13 +13,13 @@ const events: Event[] = [event];
 const emptyList: [] = [];
 
 describe("Event hook test", (): void => {
-  it("Should return a list of events when execute GetEventsUseCase", async (): Promise<void> => {
+  it("Should return a list of events when execute GetEventsUsecase", async (): Promise<void> => {
     jest.spyOn(getEventsUseCase, "execute").mockResolvedValue(events);
     const actualValue: Event[] | [] = await getEvents();
     expect(actualValue).toBe(events);
   });
 
-  it("Should return an empty list of events when execute GetEventsUseCase", async (): Promise<void> => {
+  it("Should return an empty list of events when execute GetEventsUsecase", async (): Promise<void> => {
     jest.spyOn(getEventsUseCase, "execute").mockResolvedValue(emptyList);
     const actualValue: Event[] | [] = await getEvents();
     expect(actualValue).toBe(emptyList);
