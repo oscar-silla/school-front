@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "../../../components";
 import List from "../../../components/list";
 import { useArticle } from "../../../hooks";
-import "../../../styles/news.style.css";
+import "../../../styles/news.styles.css";
 
 const LastNews = () => {
   const { articles } = useArticle();
