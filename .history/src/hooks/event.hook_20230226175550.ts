@@ -4,5 +4,5 @@ import { EventRepositoryAdapter } from "../repository";
 /* const {getPaginatedEvents} = EventRepositoryAdapter;
 
 const useEvent = () => {
-    const [event.type.tsx, setEvents] = useState()
+    const [event.type.ts, setEvents] = useState()
 } */
