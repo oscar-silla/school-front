@@ -1,7 +1,7 @@
 import { Card } from "../../../components";
 import List from "../../../components/list";
 import { useLastNews } from "../../../hooks";
-import "../../../styles/last-news.style.css";
+import "../../../styles/styles.css";
 
 const LastNews = () => {
   const { lastNews } = useLastNews();

@@ -1,6 +1,7 @@
 import { Navbar, Video } from "../../components";
 import Events from "./events";
 import LastNews from "./last-news";
+import Slogan from "./slogan";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Video />
       <LastNews />
       <Events />
+      <Slogan />
     </>
   );
 };

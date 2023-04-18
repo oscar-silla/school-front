@@ -1,0 +1,28 @@
+.section {
+    position: relative;
+    height: 650px;
+}
+
+.section .slogan {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section .slogan .legend {
+    width: 40%;
+}
+
+.section .slogan .legend .title {
+    color: #393B90;
+    font-size: 24px;
+}
+
+.section .slogan .legend .description {
+    font-size: 16px;
+}
+
+.section .slogan .image {
+    height: 600px;
+    width: 730px;
+}
