@@ -1,4 +1,4 @@
-import EventModel from "../models/event.model";
+import { EventModel } from "../models";
 
 interface EventsDatabasePort {
   findAll(page?: number, limit?: number): Promise<EventModel[] | []>;

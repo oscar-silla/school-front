@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Event } from "../domain";
-import { GetEventsUseCase } from "../usecases/event/get-events.usecase";
+import { GetEventsUseCase } from "../usecases/event";
 import { GetEventsUseCasePort } from "../ports/in/usecases/event";
 
 export const getEventsUseCase: GetEventsUseCasePort = new GetEventsUseCase();
