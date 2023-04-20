@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.history/src/containers/home/last-news/index_20230226170019.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/containers/home/last-news/index_20230226170019.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/src/containers/home/last-news/index_20230226170322.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/containers/home/last-news/index_20230226170322.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/src/containers/home/last-news/index_20230226172023.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/containers/home/last-news/index_20230226172023.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/src/containers/home/news/index_20230226163422.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/containers/home/news/index_20230226163422.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/src/containers/home/news/index_20230226165850.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/containers/home/news/index_20230226165850.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/src/containers/home/news/index_20230226170020.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/.history/src/containers/home/news/index_20230226170020.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/usecases/event/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/slogan.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/slogan.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/slogan.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/slogan.database.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/events/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/last-news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/last-news/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/slogan/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/slogan/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/styles/event.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/events/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/styles/last-news.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/last-news/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/styles/slogan.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/slogan/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/event.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/event.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/usecases/event/get-events.usecase.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/event/get-events.usecase.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/usecases/event/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/event/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/usecases/lastnew/get-last-news.usecase.port.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/lastnew/get-last-news.usecase.port.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/usecases/lastnew/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/lastnew/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/services/event.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/event.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/usecases/event/get-events.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/event/get-events.usecase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/event.repository.adapter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/event.model.mapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/events.database.port.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/events.database.port.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/home-slogan",
+    "git-widget-placeholder": "feature/event-barrel-pattern",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/School/school-back",
     "node.js.detected.package.eslint": "true",
@@ -186,6 +183,8 @@
       <workItem from="1681629795272" duration="3633000" />
       <workItem from="1681750163603" duration="6109000" />
       <workItem from="1681844379937" duration="2760000" />
+      <workItem from="1681922389882" duration="875000" />
+      <workItem from="1682015134447" duration="670000" />
     </task>
     <servers />
   </component>
