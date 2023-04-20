@@ -1,12 +1,14 @@
 import { Event } from "../../domain";
-import { EventService } from "../../services/event.service";
-import { GetEventsUseCasePort } from "../../ports/in/usecases/event";
+import { EventService } from "../../services";
 import { EventServicePort } from "../../ports/in/services";
+import { GetEventsUseCasePort } from "../../ports/in/usecases/event";
 
-export class GetEventsUseCase implements GetEventsUseCasePort {
+class GetEventsUseCase implements GetEventsUseCasePort {
   private eventService: EventServicePort = new EventService();
 
   async execute(page?: number, limit?: number): Promise<Event[]> {
     return await this.eventService.getEvents(page, limit);
   }
 }
+
+export default GetEventsUseCase;

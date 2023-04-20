@@ -1,12 +1,12 @@
-import EventModel from "../models/event.model";
-import axios from "axios";
-import { BaseUrl } from "../../../application/src/constants";
-import { HttpStatus } from "../../http-status";
+import { EventModel } from "../models";
 import { EventsDatabasePort } from "../ports";
 import { EventModelMapper } from "../mappers";
+import axios from "axios";
+import { HttpStatus } from "../../http-status";
+import { BaseUrl } from "../../../application/src/constants";
 
 class EventsDatabase implements EventsDatabasePort {
-  private eventModelMapper = new EventModelMapper();
+  private eventModelMapper: EventModelMapper = new EventModelMapper();
 
   async findAll(
     page: number = 0,
