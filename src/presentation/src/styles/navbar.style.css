@@ -8,12 +8,15 @@
     width: 100%;
     z-index: 1;
 }
+
 .rigth50 {
     margin-right: 50%;
 }
+
 .left50 {
     margin-left: 50%;
 }
+
 .logo {
     width: 150px;
     position: absolute;
@@ -24,13 +27,11 @@
     right: 0;
     text-align: center;
 }
+
 .logo img {
     padding: 0.2%;
     border-radius: 50%;
     background-color: white;
     width: 150px;
     height: 150px;
-}
-.w50 {
-    width: 40%;
 }
