@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/assets/img/construction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/box.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/mantainance-img.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/subtitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/styles/subtitle.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/domain/user.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/hooks/login.hook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/constants.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/events/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/last-news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/last-news/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/slogan/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/slogan/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/styles/navbar.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/styles/navbar.style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -54,28 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Projects/School/school-back",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "D:/Projects/School/school-front/node_modules/react-scripts",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Projects\\School\\school-front\\node_modules\\prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "D:\\Projects\\School\\school-front\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/School/school-back&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/Projects/School/school-front/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Projects\\School\\school-front\\node_modules\\prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\School\\school-front\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\School\school-front\src\presentation\src\assets\img" />
@@ -190,6 +184,7 @@
       <workItem from="1684773397064" duration="1031000" />
       <workItem from="1684867362216" duration="1077000" />
       <workItem from="1684949675978" duration="3775000" />
+      <workItem from="1686589091494" duration="3813000" />
     </task>
     <servers />
   </component>

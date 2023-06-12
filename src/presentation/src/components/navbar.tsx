@@ -1,18 +1,16 @@
 import React, { useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Tooltip from "@mui/material/Tooltip";
-import PersonAdd from "@mui/icons-material/PersonAdd";
-import Settings from "@mui/icons-material/Settings";
-import Logout from "@mui/icons-material/Logout";
 import "../styles/navbar.style.css";
 import "../styles/animations.style.css";
 import logo from "../assets/img/logo.png";
+import Input from "./input";
+import Box from "./box";
+import CustomButton from "./button";
+import { Divider } from "@mui/material";
 
 export default function Navbar() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -69,35 +67,26 @@ export default function Navbar() {
         id="account-menu"
         open={open}
         onClose={handleClose}
-        onClick={handleClose}
         transformOrigin={{ horizontal: "right", vertical: "top" }}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
-        <MenuItem>
-          <Avatar /> Profile
-        </MenuItem>
-        <MenuItem>
-          <Avatar /> My account
-        </MenuItem>
-        <Divider />
-        <MenuItem>
-          <ListItemIcon>
-            <PersonAdd fontSize="small" />
-          </ListItemIcon>
-          Add another account
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Settings fontSize="small" />
-          </ListItemIcon>
-          Settings
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Logout fontSize="small" />
-          </ListItemIcon>
-          Logout
-        </MenuItem>
+        <form onSubmit={}>
+          <Box className="p3">
+            <Box>
+              <span>Iniciar sesión</span>
+            </Box>
+            <Divider />
+            <Box className="mt5">
+              <Input name="user" type="text" label="Usuario" />
+            </Box>
+            <Box className="mt5">
+              <Input name="password" type="password" label="Contraseña" />
+            </Box>
+            <Box className="mt5">
+              <CustomButton variant="contained" text="ACCEDER" />
+            </Box>
+          </Box>
+        </form>
       </Menu>
     </>
   );

@@ -135,6 +135,10 @@ body {
     width: 60%;
 }
 
+.w100 {
+    width: 100%;
+}
+
 .h30 {
     height: 30%;
 }
@@ -147,6 +151,17 @@ body {
     height: 60%;
 }
 
+.p1 {
+    padding: 1%;
+}
+
+.p2 {
+    padding: 2%;
+}
+
+.p3 {
+    padding: 3%;
+}
 
 .underline {
     text-decoration: underline;
