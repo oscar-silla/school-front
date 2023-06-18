@@ -5,19 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/assets/img/construction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/box.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/mantainance-img.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/subtitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/src/styles/subtitle.style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/domain/token.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/hooks/user.hook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/user.service.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/user/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/in/usecases/user/login.usecase.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/ports/out/user.repository.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/services/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/usecases/user/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/src/usecases/user/login.usecase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/user.repository.adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/login.database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/login.model.mapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/login.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/login.database.port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/login-credentials.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/token.type.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/constants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/domain/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/domain/user.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/domain/user.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/login.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/login.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/out/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/video.repository.adapter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/video.repository.adapter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/events.database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/last-new.database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/slogan.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/slogan.database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/events/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/last-news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/last-news/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/src/containers/home/slogan/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/containers/home/slogan/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/src/styles/navbar.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/styles/navbar.style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +88,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/form-login",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Projects/School/school-back",
     "node.js.detected.package.eslint": "true",
@@ -71,7 +99,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "D:\\Projects\\School\\school-front\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "ts.external.directory.path": "D:\\Projects\\School\\school-front\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -190,6 +218,9 @@
       <workItem from="1684773397064" duration="1031000" />
       <workItem from="1684867362216" duration="1077000" />
       <workItem from="1684949675978" duration="3775000" />
+      <workItem from="1686589091494" duration="3813000" />
+      <workItem from="1686767630962" duration="4101000" />
+      <workItem from="1686853341269" duration="6645000" />
     </task>
     <servers />
   </component>

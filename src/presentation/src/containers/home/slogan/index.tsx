@@ -3,7 +3,7 @@ import "./styles.css";
 import Box from "../../../components/box";
 import MantainanceImg from "../../../components/mantainance-img";
 import Subtitle from "../../../components/subtitle";
-import { NoContent } from "../../../../../application/src/constants";
+import { NO_CONTENT } from "../../../../../application/src/constants";
 
 const Slogan = () => {
   const { slogan } = useSlogan();
@@ -26,7 +26,7 @@ const Slogan = () => {
               <MantainanceImg className={"w60 h60 mt2"} />
             </Box>
             <Box className="jcc">
-              <Subtitle text={NoContent} />
+              <Subtitle text={NO_CONTENT} />
             </Box>
           </Box>
         </Box>

@@ -1,26 +1,27 @@
 import React, { useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Tooltip from "@mui/material/Tooltip";
-import PersonAdd from "@mui/icons-material/PersonAdd";
-import Settings from "@mui/icons-material/Settings";
-import Logout from "@mui/icons-material/Logout";
 import "../styles/navbar.style.css";
 import "../styles/animations.style.css";
 import logo from "../assets/img/logo.png";
+import Input from "./input";
+import Box from "./box";
+import CustomButton from "./button";
+import { Divider } from "@mui/material";
+import { useLogin } from "../../../application/src/hooks";
+import { SUBMIT } from "../../../application/src/constants";
 
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
+  const { handleLogin, handleChange } = useLogin();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = () => {
+  const handleClose = (): void => {
     setAnchorEl(null);
   };
   return (
@@ -69,35 +70,36 @@ export default function Navbar() {
         id="account-menu"
         open={open}
         onClose={handleClose}
-        onClick={handleClose}
         transformOrigin={{ horizontal: "right", vertical: "top" }}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
-        <MenuItem>
-          <Avatar /> Profile
-        </MenuItem>
-        <MenuItem>
-          <Avatar /> My account
-        </MenuItem>
-        <Divider />
-        <MenuItem>
-          <ListItemIcon>
-            <PersonAdd fontSize="small" />
-          </ListItemIcon>
-          Add another account
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Settings fontSize="small" />
-          </ListItemIcon>
-          Settings
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Logout fontSize="small" />
-          </ListItemIcon>
-          Logout
-        </MenuItem>
+        <form onSubmit={handleLogin}>
+          <Box className="p3">
+            <Box>
+              <span>Iniciar sesión</span>
+            </Box>
+            <Divider />
+            <Box className="mt5">
+              <Input
+                name="email"
+                type="text"
+                label="email"
+                onChange={handleChange}
+              />
+            </Box>
+            <Box className="mt5">
+              <Input
+                name="password"
+                type="password"
+                label="Contraseña"
+                onChange={handleChange}
+              />
+            </Box>
+            <Box className="mt5">
+              <CustomButton type={SUBMIT} variant="contained" text="ACCEDER" />
+            </Box>
+          </Box>
+        </form>
       </Menu>
     </>
   );

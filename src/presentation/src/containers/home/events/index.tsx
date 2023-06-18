@@ -7,7 +7,7 @@ import { useEvent } from "../../../../../application/src/hooks";
 import Box from "../../../components/box";
 import MantainanceImg from "../../../components/mantainance-img";
 import Subtitle from "../../../components/subtitle";
-import { NoContent } from "../../../../../application/src/constants";
+import { NO_CONTENT } from "../../../../../application/src/constants";
 
 const Events = () => {
   const { events } = useEvent(0, 3);
@@ -30,7 +30,7 @@ const Events = () => {
                 <MantainanceImg className={"w60 h60 mt2"} />
               </Box>
               <Box className="jcc">
-                <Subtitle text={NoContent} />
+                <Subtitle text={NO_CONTENT} />
               </Box>
             </Box>
           </Box>
