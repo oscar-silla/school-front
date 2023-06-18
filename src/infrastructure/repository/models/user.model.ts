@@ -1,7 +1,4 @@
-import { TOKEN } from "../constants";
-import { LoginCredentialsType } from "../../../infrastructure/repository/types";
-
-class User {
+class UserModel {
   username!: string;
   password!: string;
   name!: string;
@@ -72,19 +69,6 @@ class User {
   setAvatar(avatar: string): void {
     this.avatar = avatar ?? "";
   }
-
-  setLoginCredentials(loginCredentials: LoginCredentialsType): void {
-    this.username = loginCredentials.email;
-    this.password = loginCredentials.password;
-  }
-
-  checkLoginCredentials(): boolean {
-    return !(!this.username || !this.password);
-  }
-
-  registerTokenInLocalStorage(token: string): void {
-    localStorage.setItem(TOKEN, token);
-  }
 }
 
-export default User;
+export default UserModel;

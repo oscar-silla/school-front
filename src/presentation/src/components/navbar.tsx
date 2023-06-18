@@ -11,14 +11,17 @@ import Input from "./input";
 import Box from "./box";
 import CustomButton from "./button";
 import { Divider } from "@mui/material";
+import { useLogin } from "../../../application/src/hooks";
+import { SUBMIT } from "../../../application/src/constants";
 
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
+  const { handleLogin, handleChange } = useLogin();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = () => {
+  const handleClose = (): void => {
     setAnchorEl(null);
   };
   return (
@@ -70,20 +73,30 @@ export default function Navbar() {
         transformOrigin={{ horizontal: "right", vertical: "top" }}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
-        <form onSubmit={}>
+        <form onSubmit={handleLogin}>
           <Box className="p3">
             <Box>
               <span>Iniciar sesión</span>
             </Box>
             <Divider />
             <Box className="mt5">
-              <Input name="user" type="text" label="Usuario" />
+              <Input
+                name="email"
+                type="text"
+                label="email"
+                onChange={handleChange}
+              />
             </Box>
             <Box className="mt5">
-              <Input name="password" type="password" label="Contraseña" />
+              <Input
+                name="password"
+                type="password"
+                label="Contraseña"
+                onChange={handleChange}
+              />
             </Box>
             <Box className="mt5">
-              <CustomButton variant="contained" text="ACCEDER" />
+              <CustomButton type={SUBMIT} variant="contained" text="ACCEDER" />
             </Box>
           </Box>
         </form>

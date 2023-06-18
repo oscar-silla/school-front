@@ -5,7 +5,7 @@ import { useLastNews } from "../../../../../application/src/hooks";
 import "./styles.css";
 import MantainanceImg from "../../../components/mantainance-img";
 import Subtitle from "../../../components/subtitle";
-import { NoContent } from "../../../../../application/src/constants";
+import { NO_CONTENT } from "../../../../../application/src/constants";
 import Box from "../../../components/box";
 
 const LastNews = () => {
@@ -29,7 +29,7 @@ const LastNews = () => {
                 <MantainanceImg className={"w60 h60 mt2"} />
               </Box>
               <Box className="jcc">
-                <Subtitle text={NoContent} />
+                <Subtitle text={NO_CONTENT} />
               </Box>
             </Box>
           </Box>

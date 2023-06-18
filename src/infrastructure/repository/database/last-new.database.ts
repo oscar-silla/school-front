@@ -1,6 +1,6 @@
 import axios from "axios";
 import { LastNewsDatabasePort } from "../ports";
-import { BaseUrl } from "../../../application/src/constants";
+import { BASE_URL } from "../../../application/src/constants";
 import { HttpStatus } from "../../http-status";
 import { LastNewModelMapper } from "../mappers";
 import { LastNewModel } from "../models";
@@ -13,7 +13,7 @@ class LastNewsDatabase implements LastNewsDatabasePort {
     limit: number = 3
   ): Promise<LastNewModel[] | []> {
     return await axios
-      .get(`${BaseUrl}/lastNews?page=${page}&limit=${limit}`)
+      .get(`${BASE_URL}/lastNews?page=${page}&limit=${limit}`)
       .then((res) => {
         if (res.status === HttpStatus.OK) {
           return this.lastNewModelMapper.toLastNewModels(res.data);
