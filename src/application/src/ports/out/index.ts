@@ -1,4 +1,4 @@
 export type { default as EventRepositoryPort } from "./event.repository.port";
 export type { default as SloganRepositoryPort } from "./slogan.repository.port";
 export type { default as LastNewRepositoryPort } from "./slogan.repository.port";
-export type { default as LoginRepositoryPort } from "./user.repository.port";
+export type { default as UserRepositoryPort } from "./user.repository.port";

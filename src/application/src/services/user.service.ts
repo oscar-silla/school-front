@@ -1,11 +1,14 @@
-import { LoginServicePort } from "../ports/in/services";
 import { User } from "../domain";
-import { LoginRepositoryPort } from "../ports/out";
-import { LoginRepositoryAdapter } from "../../../infrastructure/repository/adapters";
+import { UserRepositoryPort } from "../ports/out";
 import { TokenType } from "../../../infrastructure/repository/types";
+import UserServicePort from "../ports/in/services/user.service.port";
 
-class UserService implements LoginServicePort {
-  private loginRepository: LoginRepositoryPort = new LoginRepositoryAdapter();
+class UserService implements UserServicePort {
+  private loginRepository: UserRepositoryPort;
+
+  constructor(loginRepository: UserRepositoryPort) {
+    this.loginRepository = loginRepository;
+  }
 
   async login(user: User): Promise<boolean> {
     const result: boolean | TokenType = await this.loginRepository.login(user);

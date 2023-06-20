@@ -1,7 +1,7 @@
-import { LoginCredentialsType } from "../types";
+import { LoginCredentialsType, TokenType } from "../types";
 
 interface LoginDatabasePort {
-  login(loginCredentials: LoginCredentialsType): Promise<boolean>;
+  login(loginCredentials: LoginCredentialsType): Promise<boolean | TokenType>;
 }
 
 export default LoginDatabasePort;

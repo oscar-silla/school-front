@@ -4,8 +4,8 @@ class LoginModel {
   private email: string;
   private password: string;
 
-  constructor(username?: string, password?: string) {
-    this.email = username ?? "";
+  constructor(email?: string, password?: string) {
+    this.email = email ?? "";
     this.password = password ?? "";
   }
 
@@ -17,8 +17,8 @@ class LoginModel {
     return this.password;
   }
 
-  public setUsername(username: string): void {
-    this.email = username;
+  public setEmail(email: string): void {
+    this.email = email;
   }
 
   public setPassword(password: string): void {
