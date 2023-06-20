@@ -1,4 +1,4 @@
-import { LoginRepositoryPort } from "../../src/ports/out";
+import { UserRepositoryPort } from "../../src/ports/out";
 import { User } from "../../src/domain";
 import { TokenType } from "../../../infrastructure/repository/types";
 import { UserServicePort } from "../../src/ports/in/services";
@@ -6,7 +6,7 @@ import { UserService } from "../../src/services";
 import { TOKEN } from "../../src/constants";
 
 const mockToken: string = "112421356645265356AJ";
-const mockLoginRepository: LoginRepositoryPort = {
+const mockLoginRepository: UserRepositoryPort = {
   login: jest.fn(),
 };
 const userService: UserServicePort = new UserService(mockLoginRepository);

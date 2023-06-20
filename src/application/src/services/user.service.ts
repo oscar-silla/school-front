@@ -1,13 +1,12 @@
 import { User } from "../domain";
-import { LoginRepositoryPort } from "../ports/out";
-import { LoginRepositoryAdapter } from "../../../infrastructure/repository/adapters";
+import { UserRepositoryPort } from "../ports/out";
 import { TokenType } from "../../../infrastructure/repository/types";
 import UserServicePort from "../ports/in/services/user.service.port";
 
 class UserService implements UserServicePort {
-  private loginRepository: LoginRepositoryPort = new LoginRepositoryAdapter();
+  private loginRepository: UserRepositoryPort;
 
-  constructor(loginRepository: LoginRepositoryPort) {
+  constructor(loginRepository: UserRepositoryPort) {
     this.loginRepository = loginRepository;
   }
 

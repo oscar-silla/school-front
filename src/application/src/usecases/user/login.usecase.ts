@@ -1,10 +1,9 @@
 import { LoginUseCasePort } from "../../ports/in/usecases/user";
 import { User } from "../../domain";
 import { UserServicePort } from "../../ports/in/services";
-import { UserService } from "../../services";
 
 class LoginUseCase implements LoginUseCasePort {
-  private loginService: UserServicePort = new UserService();
+  private loginService: UserServicePort;
 
   constructor(loginService: UserServicePort) {
     this.loginService = loginService;

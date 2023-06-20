@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/application/test/services/user.service.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/test/usecases/user/login.usecase.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/test/adapters/user.repository.adapter.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/test/database/login.database.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/ports/in/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/in/services/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/constants.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/ports/out/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/src/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/src/usecases/user/login.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/user/login.usecase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/test/services/user.service.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/services/user.service.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/user.repository.adapter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/user.repository.adapter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/login.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/login.database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/login.model.mapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/login.model.mapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/login.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/login.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/login.database.port.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/login.database.port.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "test/login",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Projects/School/school-back",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "D:/Projects/School/school-front/node_modules/react-scripts",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Projects\\School\\school-front\\node_modules\\prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.customizations",
-    "ts.external.directory.path": "D:\\Projects\\School\\school-front\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test/login&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/School/school-back&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/Projects/School/school-front/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Projects\\School\\school-front\\node_modules\\prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\School\\school-front\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\School\school-front\src\infrastructure\repository" />
@@ -187,7 +194,8 @@
       <workItem from="1686589091494" duration="3813000" />
       <workItem from="1686767630962" duration="4101000" />
       <workItem from="1686853341269" duration="6645000" />
-      <workItem from="1687193635908" duration="6698000" />
+      <workItem from="1687193635908" duration="10267000" />
+      <workItem from="1687285874658" duration="1583000" />
     </task>
     <servers />
   </component>
