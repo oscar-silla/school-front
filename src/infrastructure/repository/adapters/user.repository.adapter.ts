@@ -11,11 +11,11 @@ class UserRepositoryAdapter implements UserRepositoryPort {
   private loginModelMapper: LoginModelMapper = new LoginModelMapper();
 
   constructor(
-    loginDatabase: LoginDatabasePort,
-    loginModelMapper: LoginModelMapper
+    loginDatabase?: LoginDatabasePort,
+    loginModelMapper?: LoginModelMapper
   ) {
-    this.loginDatabase = loginDatabase;
-    this.loginModelMapper = loginModelMapper;
+    this.loginDatabase = loginDatabase ?? new LoginDatabase();
+    this.loginModelMapper = loginModelMapper ?? new LoginModelMapper();
   }
 
   async login(user: User): Promise<boolean | TokenType> {

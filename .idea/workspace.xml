@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/test/adapters/user.repository.adapter.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/test/database/login.database.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/constants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/ports/out/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/ports/out/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/src/hooks/login.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/login.hook.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/src/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/src/usecases/user/login.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/user/login.usecase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/test/services/user.service.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/services/user.service.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/user.repository.adapter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/user.repository.adapter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/database/login.database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/database/login.database.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/mappers/login.model.mapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/mappers/login.model.mapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/models/login.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/models/login.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/ports/login.database.port.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/ports/login.database.port.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;test/login&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Projects/School/school-back&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -196,6 +187,7 @@
       <workItem from="1686853341269" duration="6645000" />
       <workItem from="1687193635908" duration="10267000" />
       <workItem from="1687285874658" duration="1583000" />
+      <workItem from="1687371729029" duration="1142000" />
     </task>
     <servers />
   </component>

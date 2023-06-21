@@ -1,12 +1,13 @@
 import { LoginUseCasePort } from "../../ports/in/usecases/user";
 import { User } from "../../domain";
 import { UserServicePort } from "../../ports/in/services";
+import { UserService } from "../../services";
 
 class LoginUseCase implements LoginUseCasePort {
-  private loginService: UserServicePort;
+  private loginService: UserServicePort = new UserService();
 
-  constructor(loginService: UserServicePort) {
-    this.loginService = loginService;
+  constructor(loginService?: UserServicePort) {
+    this.loginService = loginService ?? new UserService();
   }
 
   async execute(user: User): Promise<boolean> {

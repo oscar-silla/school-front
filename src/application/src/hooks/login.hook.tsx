@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { User } from "../domain";
 import { LoginUseCasePort } from "../ports/in/usecases/user";
-import { LoginUseCase } from "../usecases/user";
 import { LoginCredentialsType } from "../../../infrastructure/repository/types";
+import { LoginUseCase } from "../usecases/user";
 
-export const loginUseCase: LoginUseCasePort = new LoginUseCase();
+export let loginUseCase: LoginUseCasePort = new LoginUseCase();
 
 type eventType = {
   target: { name: string; value: string };
