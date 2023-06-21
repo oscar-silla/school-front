@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b7765e-05fd-4d03-a30c-9812960f90bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/presentation/src/components/alert.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/src/hooks/login.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/hooks/login.hook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/services/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/src/usecases/user/login.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/src/usecases/user/login.usecase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/repository/adapters/user.repository.adapter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repository/adapters/user.repository.adapter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/test/hooks/login.hook.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/test/hooks/login.hook.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/src/styles/navbar.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/src/styles/navbar.style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +189,7 @@
       <workItem from="1686853341269" duration="6645000" />
       <workItem from="1687193635908" duration="10267000" />
       <workItem from="1687285874658" duration="1583000" />
-      <workItem from="1687371729029" duration="1142000" />
+      <workItem from="1687371729029" duration="5662000" />
     </task>
     <servers />
   </component>
