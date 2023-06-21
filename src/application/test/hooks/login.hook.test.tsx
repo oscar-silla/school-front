@@ -17,6 +17,6 @@ describe("Login hook tests", (): void => {
     await act(async (): Promise<void> => {
       await result.current.handleLogin({ preventDefault: jest.fn() });
     });
-    expect(result.current.isLogged).toBe(true);
+    expect(result.current.showAlert).toBe(true);
   });
 });
