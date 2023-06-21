@@ -19,13 +19,17 @@ const useLogin = () => {
       email: "",
       password: "",
     });
-  const [isLogged, setIsLogged] = useState<boolean>();
+  const [showAlert, setShowAlert] = useState<boolean>(false);
 
   const handleLogin = async (event: submitType): Promise<void> => {
     event.preventDefault();
     const user: User = new User();
     user.setLoginCredentials(loginCredentials);
-    setIsLogged(await loginUseCase.execute(user));
+    const isLogged: boolean = await loginUseCase.execute(user);
+    if (!isLogged) {
+      setShowAlert(true);
+      restoreAlert();
+    }
   };
 
   const handleChange = (event: eventType): void => {
@@ -35,10 +39,16 @@ const useLogin = () => {
     });
   };
 
+  const restoreAlert = (): void => {
+    setTimeout((): void => {
+      setShowAlert(false);
+    }, 3000);
+  };
+
   return {
     handleLogin,
     handleChange,
-    isLogged,
+    showAlert,
   };
 };
 

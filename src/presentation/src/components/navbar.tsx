@@ -13,9 +13,10 @@ import CustomButton from "./button";
 import { Divider } from "@mui/material";
 import { useLogin } from "../../../application/src/hooks";
 import { SUBMIT } from "../../../application/src/constants";
+import Alert from "./alert";
 
 export default function Navbar(): JSX.Element {
-  const { handleLogin, handleChange } = useLogin();
+  const { handleLogin, handleChange, showAlert } = useLogin();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
@@ -66,12 +67,14 @@ export default function Navbar(): JSX.Element {
         </div>
       </div>
       <Menu
-        anchorEl={anchorEl}
-        id="account-menu"
-        open={open}
-        onClose={handleClose}
+        PaperProps={{
+          sx: { width: 210, maxWidth: "100%" },
+        }}
         transformOrigin={{ horizontal: "right", vertical: "top" }}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
       >
         <form onSubmit={handleLogin}>
           <Box className="p3">
@@ -95,6 +98,13 @@ export default function Navbar(): JSX.Element {
                 onChange={handleChange}
               />
             </Box>
+            {showAlert && (
+              <Alert
+                className="mt5"
+                type="error"
+                text="Email o contraseña inccorrecta."
+              />
+            )}
             <Box className="mt5">
               <CustomButton type={SUBMIT} variant="contained" text="ACCEDER" />
             </Box>
